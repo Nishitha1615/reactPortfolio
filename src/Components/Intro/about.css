@@ -1,0 +1,78 @@
+.abouthome {
+  flex-direction: column;
+  margin-top: 6em;
+  display: flex;
+  align-items: center;
+  font-size: 3.2rem;
+  }
+  .about__name {
+    color: var(--clr-primary);
+  }
+  .abouthome > :nth-child(2) {
+    margin-top: 1.2em;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--clr-fg-alt);
+  }
+  
+  .about__desc {
+    font-size: 1.27rem;
+    max-width: 45%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about__desc
+    {
+      margin-top: 3rem;
+    }
+  
+  .about__contact a{
+    margin-top: 2rem;
+    color: rgb(0,141,210);
+  }
+  .about__contact a:hover{
+    color: rgb(144,160,217);
+    padding-bottom:0.6rem;
+    border-bottom: 3px solid rgb(144,160,217) ;
+  }
+  .abouthome .link--icon {
+    margin-right: 0.8em;
+  }
+  
+  .abouthome .btn--outline {
+    margin-right: 1em;
+  }
+  .btnResume{
+    color: var(--clr-primary);
+    border: 2px solid rgb(144,160,217);;
+    border-radius: 5px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0px 30px;
+    margin-top: 10px;
+  }
+  .btnResume:hover{
+    background-color: rgb(144,160,217);
+    
+  }
+  .center {
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 600px) {
+    .mobileHead{
+      align-content: center;
+    }
+    .app .about {
+      align-items: flex-start;
+      margin-top: 2em;
+      justify-content: center;
+      align-items: center;
+    }
+    .abouthome > :nth-child(2) {
+      font-size: 1.5rem;
+    }
+  }
+  

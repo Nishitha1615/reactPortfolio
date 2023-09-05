@@ -1,0 +1,54 @@
+.navbar
+{
+    height:6rem;
+    width:100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding:1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo
+{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+
+.MenuList
+{
+    margin: 1.5rem;
+    cursor: pointer;
+
+}
+
+.MenuList:hover{
+    color: rgb(144,160,217);
+    padding-bottom:0.6rem;
+    border-bottom: 3px solid rgb(144,160,217) ;
+}
+
+.contacticon
+{
+    object-fit: cover;
+    height:1.5rem;
+    width: 1.5rem;
+    margin: 1rem;
+
+}
+
+.contactbtn{
+    background-color:aliceblue;
+    color: rgb(144,160,217);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 3rem;
+}
